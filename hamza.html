@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hamza Store</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="style.css" />
+        <script src="hamza.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="store.html">STORE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">Store</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">Homme</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">T-shirt</span>
+                    <img class="shop-item-image" src="tshirt1.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">45Dt</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Pants</span>
+                    <img class="shop-item-image" src="pants.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">90Dt</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Vest</span>
+                    <img class="shop-item-image" src="vest.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">250Dt</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">shoes</span>
+                    <img class="shop-item-image" src="shoes.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">150Dt</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">Femme</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">t-shirt</span>
+                    <img class="shop-item-image" src="tshirt.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">60Dt</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">short</span>
+                    <img class="shop-item-image" src="short.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">90 Dt</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                <div class="QUANTITY">
+                    <button class="btn minus-btn disabled" type="button">-</button>
+                    <input type="text" id="quantity" value="1">
+                    <button class="btn plus-btn" type="button">+</button>
+                </div>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">0DT</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">إيجا إشري </h3>
+        </footer>
+    </body>
+</html>
